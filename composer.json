@@ -1,0 +1,13 @@
+{
+  "autoload": {
+    "psr-4": {
+      "WilokeCrisp\\": "src/"
+    }
+  },
+  "require": {
+    "crispchat/php-crisp-api": "^1.6"
+  },
+  "require-dev": {
+    "wilokecom/phpcli": "^1.30"
+  }
+}

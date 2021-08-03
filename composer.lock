@@ -1,0 +1,151 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
+        "This file is @generated automatically"
+    ],
+    "content-hash": "7e06307fff4e9937f6f1f2215f7c9287",
+    "packages": [
+        {
+            "name": "crispchat/php-crisp-api",
+            "version": "1.6.7",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/crisp-im/php-crisp-api.git",
+                "reference": "dcd12e128c2f058e849fe64c970e5a5db0e506b9"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/crisp-im/php-crisp-api/zipball/dcd12e128c2f058e849fe64c970e5a5db0e506b9",
+                "reference": "dcd12e128c2f058e849fe64c970e5a5db0e506b9",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.4",
+                "tcdent/php-restclient": "^0.1.7"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Crisp\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Baptiste Jamin",
+                    "email": "baptiste@crisp.chat"
+                }
+            ],
+            "description": "Crisp API PHP Wrapper",
+            "time": "2021-06-16T11:05:58+00:00"
+        },
+        {
+            "name": "tcdent/php-restclient",
+            "version": "0.1.7",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/tcdent/php-restclient.git",
+                "reference": "4522e8518eaef770d715977fcb45f187f8ad7499"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/tcdent/php-restclient/zipball/4522e8518eaef770d715977fcb45f187f8ad7499",
+                "reference": "4522e8518eaef770d715977fcb45f187f8ad7499",
+                "shasum": ""
+            },
+            "require": {
+                "ext-curl": "*",
+                "ext-json": "*",
+                "php": ">=5.4.0"
+            },
+            "require-dev": {
+                "php": ">=5.5.7",
+                "phpunit/phpunit": ">=4.5"
+            },
+            "type": "library",
+            "autoload": {
+                "files": [
+                    "restclient.php"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Travis Dent",
+                    "email": "tcdent@gmail.com",
+                    "role": "Developer"
+                }
+            ],
+            "description": "A generic REST API client for PHP",
+            "homepage": "http://github.com/tcdent/php-restclient",
+            "keywords": [
+                "api",
+                "client",
+                "curl",
+                "json",
+                "rest",
+                "xml"
+            ],
+            "time": "2017-09-07T20:44:36+00:00"
+        }
+    ],
+    "packages-dev": [
+        {
+            "name": "wilokecom/phpcli",
+            "version": "1.30",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/wilokecom/phpcli.git",
+                "reference": "851fa0db479d9f49091033485a0fba7e07c374fc"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/wilokecom/phpcli/zipball/851fa0db479d9f49091033485a0fba7e07c374fc",
+                "reference": "851fa0db479d9f49091033485a0fba7e07c374fc",
+                "shasum": ""
+            },
+            "require-dev": {
+                "symfony/console": "2.6.7",
+                "symfony/filesystem": "^v5.1.2"
+            },
+            "bin": [
+                "wilokecli"
+            ],
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "WilokeCommandLine\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "nguyendttn",
+                    "email": "support@wiloke.com",
+                    "homepage": "https://wiloke.com"
+                }
+            ],
+            "description": "The easiest and fastest way to create Wiloke Component",
+            "homepage": "https://github.com/wilokecom/phpcli",
+            "time": "2021-06-08T04:10:57+00:00"
+        }
+    ],
+    "aliases": [],
+    "minimum-stability": "stable",
+    "stability-flags": [],
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": [],
+    "platform-dev": [],
+    "plugin-api-version": "1.1.0"
+}
